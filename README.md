@@ -54,12 +54,12 @@ using the `corpus.json` provided with George:
 $ curl -Ss -u uuuuuuuu-uuuu-uuuu-uuuu-uuuuuuuuuuuu:ppppppppppp \
     -H "Content-Type:application/json" \
     -d @corpus.json \
-    https://gateway.watsonplatform.net/natural-language-classifier-experimental/api/v1/classifiers
+    https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers
 {
   "classifier_id": "ABCDEF-nlc-123",
   "name": null,
   "created": "2015-06-24T12:56:58.555Z",
-  "url": "https://gateway.watsonplatform.net/natural-language-classifier-experimental/api/v1/classifiers/ABCDEF-nlc-123",
+  "url": "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/ABCDEF-nlc-123",
   "status": "Training",
   "status_description": "The classifier instance is in its training phase, not yet ready to accept classify requests"
 }
